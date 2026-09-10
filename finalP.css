@@ -1,7 +1,28 @@
 :root {
-    --prim-color: #0f172a;
-    --cont-prim-color: #f8fafc;
+    --brand-color: #8720e7;
+    --prim-color: #130f2a;
+    --cta-color: #df39c1;
+    --border-color: #22c55e;
+    --cont-prim-color: beige;
     --sec-color: #1e293b;
+}
+.text-info {
+    color: var(--brand-color) !important;
+}
+.btn-info {
+  background-color: var(--cta-color)!important;
+  border-color: var(--cta-color) !important;
+  color: var(--cont-prim-color) !important; 
+}
+.btn-info:hover, .btn-info:focus {
+  background-color: var(--brand-color) !important;
+  border-color: var(--brand-color) !important;
+}
+.border-info {
+  border-color: var(--border-color) !important;
+}
+code {
+    color: var(--border-color);
 }
 body {
     background-color: var(--prim-color);
