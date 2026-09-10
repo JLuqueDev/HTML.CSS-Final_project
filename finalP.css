@@ -2,6 +2,10 @@ body {
     background-color: #0f172a;
     color: #f8fafc;
 }
+.navbar {
+    background-color: #0f172a;
+    border-bottom: solid 1px #1e293b;
+}
 .hero {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     padding: 100px 0;
